@@ -1,0 +1,11 @@
+img.as-banner {
+    width: 100%;
+}
+.orange-bar ul li {
+    list-style: aliceblue;
+    display: inline-flex;text-align: center;
+    padding: 0 56px; vertical-align:middle;
+}
+.orange-bar {
+    background-color: #ff8300;
+}

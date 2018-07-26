@@ -1,0 +1,168 @@
+.columns {
+    float: left;
+    width: 25%;
+    padding: 8px; text-align:center;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0 0 35px;
+    padding: 15px;
+    -webkit-transition: .3s;
+    transition: .3s
+}
+
+.news-btn,
+.technologies a {
+    transition: all .3s ease-in;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, .2);
+}
+
+.price .header {
+    background-color: transparent;
+    color: #4f4e4e;
+    font-size: 21px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 18px 0;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding: 9px 36px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.sky {
+    color: #2dc3fa;
+}
+
+small {
+    font-size: 12px;
+    color: #c5c5c5;
+    vertical-align:top;
+}
+
+@media only screen and (max-width:600px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+#myBtnContainer .nav-tabs {
+    border-bottom: none;
+}
+
+#myBtnContainer {
+    width: 18%;
+    margin: 0 auto 40px;
+    background: #ededed;
+    border-radius: 20px;
+    box-shadow: 1px 3px 5px -1px #ccc; display:none;
+}
+
+#myBtnContainer .nav-tabs>li.active>a,
+#myBtnContainer .nav-tabs>li.active>a:focus,
+#myBtnContainer .nav-tabs>li.active>a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #ff773b!important;
+    border: none;
+    border-bottom-color: transparent;
+    border-top-left-radius: 20px;
+}
+
+#myBtnContainer .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 5px 20px;
+    font-weight: 400;
+    color: #123750;
+    border-radius:20px;
+}
+
+input.button.brown,
+input.button.green-btn,
+input.button.purpel-btn,
+input.button.sky-btn {
+    padding: 14px 35px!important;
+    font-size: 14px;
+}
+
+#myBtnContainer .nav-tabs>li {
+    float: left;
+    margin-bottom: -2px;
+}
+
+input.button.sky-btn {
+    border: 1px solid #1396c7!important;
+    color: #fff!important;
+    background: #1396c7;
+}
+input.button.sky-btn:hover{
+    background:#3cbeed !important; opacity:1 !important; border:solid 1px #3091b5 !important;
+}
+
+
+
+input.button.purpel-btn {
+        border: 1px solid #a0179b;
+    color: #fff;
+    background: #a0179b;
+}
+
+input.button.purpel-btn:hover {
+background-color:#cf5dcb!important;
+    color:#fff!important; opacity:1 !important;
+         border:1px solid #922d90 !important;
+}
+
+input.button.green-btn {
+
+     background-color:#10966f!important;
+    color: #fff!important; opacity:1 !important; border:1px solid #10966f;
+}
+
+input.button.green-btn:hover {
+     border:1px solid #1a7459 !important;
+    color:#fff;
+    background:#47bb99 !important; opacity:1 !important;
+}
+
+input.button.brown {
+    border:1px solid #b74812;
+    color:#fff;
+    background:#b74812;
+}
+
+input.button.brown:hover {
+    background-color:#ba7655!important;
+    color:#fff!important; opacity:1 !important; border:solid 1px #82472a;
+}
+
+.hidden-field {
+    display: none
+}
+
+input#submit_form.check_out_inn {
+    background:#ff8300;
+    border:0;
+    font-size:14px;
+    color:#fff;
+    padding: 12px 19px;
+    border-radius: 3px;
+}
